@@ -1,0 +1,117 @@
+.container_contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1111px;
+  background-color: #fafafa;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 58px;
+  padding-bottom: 79px;
+}
+.form_contact {
+  margin-top: 62px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form_wrap-left {
+  position: relative;
+}
+.form_wrap-right {
+  position: relative;
+}
+.form_input {
+  padding-left: 70px;
+  width: 281px;
+  height: 45px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px rgba(64, 64, 71, 0.3);
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+.form_input-right {
+  margin-left: 21px;
+}
+
+.form_label-left {
+  position: absolute;
+  top: 50%;
+  left: 31px;
+  transform: translateY(-50%);
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(101, 101, 101, 0.74);
+}
+.form_label-right {
+  position: absolute;
+  top: 50%;
+  left: 51px;
+  transform: translateY(-50%);
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(101, 101, 101, 0.74);
+}
+.form_wrap-area {
+  position: relative;
+}
+
+.lebel_area {
+  position: absolute;
+  top: 47px;
+  left: 31px;
+  transform: translateY(-50%);
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(101, 101, 101, 0.74);
+}
+
+.area {
+  width: 583px;
+  height: 110px;
+  margin-top: 17px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px rgba(64, 64, 71, 0.3);
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.backgraund_contact {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  width: 583px;
+  height: 45px;
+  background-color: #cf404d;
+}
+
+.footer_container {
+  padding-top: 24px;
+  padding-bottom: 28px;
+  background-color: #ffffff;
+}
+.footer_text {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.74);
+}
