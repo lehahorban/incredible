@@ -1,7 +1,17 @@
 .heading {
   margin-left: auto;
   margin-right: auto;
+  &:hover,
+  :focus {
+    .pattern_title,
+    .pattern_text {
+      animation-duration: 3s;
+      animation-name: slidein;
+      opacity: 1;
+    }
+  }
 }
+
 .container_heading {
   padding-top: 57px;
   //   padding-left: 86px;

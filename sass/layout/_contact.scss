@@ -1,3 +1,14 @@
+.contact {
+  &:hover,
+  :focus {
+    .pattern_title,
+    .pattern_text {
+      animation-duration: 3s;
+      animation-name: slidein;
+      opacity: 1;
+    }
+  }
+}
 .container_contact {
   display: flex;
   justify-content: center;
